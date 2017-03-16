@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{00BDD253-9D71-461D-A532-EB90E22E629A}</ProjectGuid>
+    <ProjectGuid>{883C5E4B-7E99-4DBF-B0C7-A218863DF83A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SortingTests</RootNamespace>
-    <AssemblyName>SortingTests</AssemblyName>
+    <RootNamespace>SetTests</RootNamespace>
+    <AssemblyName>SetTests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,18 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSortTests.cs" />
+    <Compile Include="DifferenceTests.cs" />
+    <Compile Include="IntersectionTests.cs" />
+    <Compile Include="SymetricDifferenceTests.cs" />
+    <Compile Include="TestCaseData.cs" />
+    <Compile Include="UnionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortingCorrectnessTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sorting\Sorting.csproj">
-      <Project>{0CEAFD73-29E8-4E5F-9588-3D6D3F486C84}</Project>
-      <Name>Sorting</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tracker\Tracker.csproj">
-      <Project>{4695BA37-9807-4265-BAAF-E9D1404F8408}</Project>
-      <Name>Tracker</Name>
+    <ProjectReference Include="..\Set\Set.csproj">
+      <Project>{1AFA297F-DF1E-4FBB-9351-608C6B881691}</Project>
+      <Name>Set %28Set\Set%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -84,7 +84,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Sorting\Sorting.csproj">
       <Project>{0CEAFD73-29E8-4E5F-9588-3D6D3F486C84}</Project>
-      <Name>Sorting %28Sorting\Sorting%29</Name>
+      <Name>Sorting</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tracker\Tracker.csproj">
       <Project>{4695BA37-9807-4265-BAAF-E9D1404F8408}</Project>
